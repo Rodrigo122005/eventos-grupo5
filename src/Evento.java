@@ -1,12 +1,12 @@
 public class Evento{
 
-  String NomeInscrito;
+  String NomeEvento;
   int vagas;
   boolean isInscrito;
   int numInscricao;
   int vagasInscritas;
 
-   public Evento(String NomeInscrito, int vagas, boolean isInscrito, int numInscricao, int vagasInscritas){
+   public Evento(String NomeEvento, int vagas, boolean isInscrito, int numInscricao, int vagasInscritas){
      this.NomeInscrito = NomeInscrito;
      this.vagas = vagas;
      this.isInscrito = isInscrito;
@@ -15,8 +15,8 @@ public class Evento{
 }
 
 //GETTERS
-public String getNomeInscrito(){
-   return NomeInscrito;
+public String getNomeEvento(){
+   return NomeEvento;
 }
 
 public int getvagas(){
@@ -36,8 +36,8 @@ public int getvagasInscritas(){
 }
 
 //SET
-public void setNomeInscrito(String NomeInscrito){
-   this.NomeInscrito = NomeInscrito;
+public void setNomeEvento(String NomeEvento){
+   this.NomeEvento = NomeEvento;
 }
 
 public void setvagas(int vagas){
