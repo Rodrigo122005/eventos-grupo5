@@ -12,11 +12,11 @@ public class Teste {
           System.out.println("************************");
           System.out.println("Gestor de Eventos");
           System.out.println("************************");
-          System.out.println("Novos enventos clique 1:");
-          System.out.println("Editar enventos clique 2:");
+          System.out.println("Novos eventos clique 1:");
+          System.out.println("Editar eventos clique 2:");
           System.out.println("Novos Participantes clique 3:");
           System.out.println("Editar Participantes clique 4:");
-          System.out.println("Sair enevtos clique 5:");
+          System.out.println("Sair clique 5:");
           System.out.println("************************");
 
          int opcao = scanner.nestInt();
